@@ -1,0 +1,31 @@
+header.section.page-header {
+  background-color: #0056a3;
+}
+
+.rd-navbar,
+.rd-navbar.rd-navbar--is-stuck {
+  background-color: #0056a3 !important;
+}
+
+.rd-navbar-nav .rd-nav-link {
+  color: #fff !important;
+}
+
+.social-buttons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.social-buttons .icon {
+  color: #fff;
+  font-size: 20px;
+}
+@media (max-width: 767px) {
+  .social-buttons {
+    width: 100%;
+    justify-content: center;
+    margin: 10px 0;
+  }
+}
